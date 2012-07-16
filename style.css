@@ -1,0 +1,32 @@
+/*   
+Theme Name: C.J. Skateboard Park & School
+Theme URI: http://cjdigital.ca/
+Description: A Thematic Child Theme development by CJDigital.
+Author: Nick Tetcu @ CJDigital
+Author URI: http://cjdigital.ca/
+Template: thematic
+Version: 1.0
+Tags: Thematic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('css/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('css/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');

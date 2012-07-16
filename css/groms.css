@@ -1,0 +1,235 @@
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+.entry-content { padding: 0; }
+#content {
+  width: 100%;
+  overflow: none;
+}
+#primary { display: none; }
+#contents{
+  padding: 10px 0 32px;
+}
+#contents p {
+  text-indent: 0;
+}
+#container { width:100%; }
+#contents {
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: left;
+  width: 992px;
+    color: #616161;
+    font-family: "Helvetica Neue",helvetica,arial,sans-serif;
+    font-size: 100.01%;
+    line-height: 1.1;
+    text-align: center;
+
+}
+#account-form input[type="checkbox"] {
+  margin: 0 5px 0 0;
+  width: auto;
+}
+#account-form h1 {
+  color: #434343;
+  font-family: 'UniversUC',helvetica,arial,sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#account-form {
+  height: auto;
+  margin: 0em auto 4em;
+  text-align: left;
+  width: 780px;
+}
+.inputs {
+border: none;
+}
+#account-form form {
+    border: 1px solid #D2D2D2;
+    margin: 16px 0;
+    padding: 32px 32px 16px;
+}
+#account-form form {
+    border: 1px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    margin: 1em 0;
+    padding: 2em 2em 1em;
+}
+#account-form form ol li {
+    margin: 0 0 1em;
+    list-style-type: none;
+}
+li, p {
+    font-size: 12px;
+    margin: 0 0 8px;
+}
+#account-form input {
+    width: 355px;
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"], textarea {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    color: #616161;
+    font-family: "Helvetica Neue",helvetica,arial,sans-serif;
+    font-size: 16px;
+    padding: 8px 12px;
+    width: 225px;
+}
+#account-form .opt_in_box {
+    background-color: #F0F0F0;
+    margin: 20px 0;
+    padding: 15px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+#account-form .opt_in_box label {
+    color: #454545;
+    font-size: 16px;
+    font-weight: bold;
+}
+#account-form label {
+    display: block;
+    font-size: 1.25em;
+    margin: 0 0 0.25em;
+}
+#account-form form ol #extras li {
+  margin-left: 155px;
+}
+#account-form #extra_questions_1 label,
+#account-form #extra_questions_2 label,
+#account-form #extra_questions_3 label,
+#account-form #extra_questions_4 label,
+#account-form #contest_division_ams label,
+#account-form #contest_division_groms label {
+  width:395px;
+}
+label {
+    color: #414141;
+}
+#account-form .opt_in_box p {
+    color: #858585;
+    line-height: 18px;
+    margin: 4px 20px 0 23px;
+}
+#account-form input.btn {
+    display: block;
+    font-size: 1.25em;
+    font-weight: normal;
+    margin: 1em 0 0;
+    width: auto;
+}
+#account-form input.btn {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 16px 0 0;
+    width: auto;
+}
+input.btn[type="submit"]:hover, .link_btn:hover {
+    background-color: #15CBFA;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+input.btn[type="submit"], .link_btn {
+    background-color: #01B6E5;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    color: #FFFFFF;
+    height: auto;
+    padding: 8px 16px;
+    width: auto;
+}
+input[type="submit"] {
+    cursor: pointer;
+}
+#account-form li#facebook-login {
+    border-top: 1px solid #CCCCCC;
+    margin: 1em 0 0;
+    padding: 1em 0;
+}
+#account-form form ol li {
+    margin: 0 0 1em;
+}
+#account-form li#facebook-login h3 {
+    font-size: 1em;
+    margin: 0 0 0.5em;
+}
+input.demo-1 { display: none }
+    label.demo-1 { 
+	background-color: #ddd; 
+	text-shadow: 0 1px 0 #fff;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.44, rgb(184,184,184)),
+	    color-stop(0.72, rgb(212,212,212))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(184,184,184) 44%,
+	    rgb(212,212,212) 72%
+	);
+	color: #555;
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+	cursor: pointer;
+	border: solid #000 1px;
+    }
+    input.demo-1:checked + label.demo-1 { 
+	color: #002;
+	background-color: #00f; 
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.44, rgb(134,235,129)),
+	    color-stop(0.72, rgb(165,240,153))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(134,235,129) 44%,
+	    rgb(165,240,153) 72%
+	);
+	border: solid 1px #99f;
+    } 
+    input.demo-1:checked + label.radio {
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+      left top,
+	    color-stop(0.44, rgb(134,235,129)),
+	    color-stop(0.72, rgb(165,240,153))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(134,235,129) 44%,
+	    rgb(165,240,153) 72%
+	);
+
+	border: solid 1px #999;
+    }
+label.radio {
+  font-weight: bold;
+  text-align: center;
+}
+.entry-content img {
+  margin: 0;
+  padding: 0;
+}
+.entry-content h2 {
+  margin: 0 0 0.25em;
+  border: none;
+  font-size: 14px;
+  padding: 0;
+  font-family: inherit;
+  font-weight: normal;
+}
+textarea#user_sponsors,
+textarea#user_address {
+  width: 355px;
+}
